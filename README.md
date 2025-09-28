@@ -55,3 +55,79 @@ Pandas – data manipulation
 NumPy – numerical operations
 Matplotlib / Seaborn – visualization
 Scikit-learn – preprocessing, encoding, and scaling
+
+📌 Task 3: Linear Regression
+
+Objective: Implement and understand simple & multiple linear regression.
+
+Steps Covered:
+
+1)Import & Preprocess Dataset
+Loaded dataset using Pandas.
+Selected independent variables (X) and target variable (y).
+Handled missing values and scaled features if needed.
+
+2)Train-Test Split
+Split data into training and testing sets using train_test_split.
+Used 80% for training and 20% for testing.
+
+3)Fit Linear Regression Model
+Used LinearRegression from scikit-learn.
+Trained model on training data.
+Predicted target values for test set.
+
+4)Model Evaluation
+Evaluated model using:
+Mean Absolute Error (MAE)
+Mean Squared Error (MSE)
+R² Score
+
+5)Plot & Interpret Results
+For simple regression: plotted regression line against actual data.
+For multiple regression: interpreted coefficients to understand feature impact.
+
+📊 Tools & Libraries Used
+Python 3.x
+Pandas – data manipulation
+NumPy – numerical operations
+Scikit-learn – model training & evaluation
+Matplotlib / Seaborn – visualization
+
+📌 Task 4: Classification with Logistic Regression
+
+Objective: Build a binary classifier using logistic regression.
+
+Steps Covered:
+
+1)Import & Preprocess Dataset
+Loaded a binary classification dataset using Pandas.
+Handled missing values, encoded categorical variables, and standardized features.
+
+2)Train-Test Split
+Split dataset into training and testing sets using train_test_split.
+Used 80% for training and 20% for testing.
+
+3)Fit Logistic Regression Model
+Used LogisticRegression from scikit-learn.
+Trained model on training data.
+Predicted class labels and probabilities on the test set.
+
+4)Model Evaluation
+Evaluated model using:
+Confusion Matrix
+Precision, Recall, and F1-Score
+ROC Curve and AUC Score
+
+5)Threshold Tuning & Sigmoid Function
+Explored different classification thresholds.
+Explained how the sigmoid function maps input features to probabilities between 0 and 1.
+
+📊 Tools & Libraries Used
+Python 3.x
+Pandas – data manipulation
+NumPy – numerical operations
+Scikit-learn – model training & evaluation
+Matplotlib / Seaborn – visualization
+
+
+- 
