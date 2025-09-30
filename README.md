@@ -129,5 +129,83 @@ NumPy – numerical operations
 Scikit-learn – model training & evaluation
 Matplotlib / Seaborn – visualization
 
+🌳 Decision Trees & Random Forests
+
+This project focuses on applying tree-based models for classification using the Heart Disease dataset. The goal is to build and evaluate Decision Trees and Random Forests, understand overfitting, interpret feature importance, and perform model validation.
+
+📌 Task 5: Decision Trees & Random Forests
+
+Objective: Learn and compare Decision Trees and Random Forests for classification, analyze overfitting, and interpret results.
+
+Steps Covered:
+
+1)Import Dataset & Split Data
+Loaded the Heart Disease dataset using Pandas.
+Split into training and testing sets using train_test_split.
+
+2)Train Decision Tree & Visualize
+Built a DecisionTreeClassifier.
+Visualized tree structure with plot_tree (limited depth for readability).
+
+3)Overfitting Analysis
+Trained trees with increasing depth.
+Plotted training vs testing accuracy.
+Controlled complexity using max_depth and min_samples_split.
+
+4)Train Random Forest & Compare
+Built a RandomForestClassifier with 100 trees.
+Compared accuracy with Decision Tree model.
+Observed reduced variance and better generalization.
+
+5)Feature Importances
+Extracted feature_importances_ from Random Forest.
+Plotted bar chart to identify most influential features.
+
+6)Cross-Validation Evaluation
+Used 5-fold cross-validation with cross_val_score.
+Compared mean accuracy for Decision Tree and Random Forest.
+
+Expected Outcome:
+Decision Tree provides interpretability but tends to overfit.
+Random Forest improves stability and accuracy using ensemble learning.
+Feature importance reveals which attributes strongly influence predictions.
+
+🌸 K-Nearest Neighbors (KNN) Classification
+
+This project focuses on applying the K-Nearest Neighbors algorithm for classification using the Iris dataset. The goal is to understand how KNN works, experiment with different values of K, evaluate performance, and visualize decision boundaries.
+
+📌 Task 6: K-Nearest Neighbors (KNN) Classification
+
+Objective: Implement and analyze KNN for classification problems, tune hyperparameters, and visualize results.
+
+Steps Covered:
+1)Load Dataset & Normalize Features
+Used the built-in Iris dataset from sklearn.datasets.
+Extracted features and target classes.
+Standardized numerical features using StandardScaler for fair distance calculations.
+
+2)Build KNN Classifier
+Used KNeighborsClassifier from sklearn.neighbors.
+Trained initial model with default K (k=5).
+
+3)Experiment with Different K Values
+Tested multiple values of K (1–20).
+Plotted accuracy vs K to find the optimal value.
+
+4)Evaluate Model Performance
+Calculated accuracy score on the test set.
+Generated confusion matrix to analyze misclassifications.
+Reported precision, recall, and F1-score.
+
+5)Visualize Decision Boundaries
+Plotted decision boundaries for two selected features (Petal Length, Petal Width).
+Showed how different K values affect decision regions.
+
+Expected Outcome:
+Smaller K values (e.g., K=1) may lead to overfitting.
+Larger K values smooth out decision boundaries but may underfit.
+Optimal K balances bias and variance for better classification accuracy.
+Visualization demonstrates how KNN classifies points based on nearest neighbors.
+
 
 - 
