@@ -207,5 +207,31 @@ Larger K values smooth out decision boundaries but may underfit.
 Optimal K balances bias and variance for better classification accuracy.
 Visualization demonstrates how KNN classifies points based on nearest neighbors.
 
+🖇️ Support Vector Machines (SVM)
+
+This project focuses on applying Support Vector Machines (SVM) for both linear and non-linear classification. The goal is to train models using different kernels, visualize decision boundaries, tune hyperparameters, and evaluate model performance using cross-validation.
+
+📌 Task 7: Support Vector Machines (SVM)
+
+Objective: Use SVMs for linear and non-linear classification.
+
+Steps Covered:
+
+1)Load and Prepare Dataset
+Generated a 2D binary dataset using make_classification.
+Split into train-test sets and standardized features with StandardScaler.
+
+2)Train SVM Models
+Trained SVM with linear kernel and with RBF kernel.
+
+3)Visualize Decision Boundaries
+Plotted decision boundaries for both linear and RBF SVMs.
+
+4)Hyperparameter Tuning
+Tuned C and gamma using cross-validation.
+Compared accuracy across multiple parameter settings.
+
+5)Evaluate Performance
+Reported cross-validation accuracy and test accuracy for both kernels.
 
 - 
