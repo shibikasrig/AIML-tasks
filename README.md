@@ -234,4 +234,29 @@ Compared accuracy across multiple parameter settings.
 5)Evaluate Performance
 Reported cross-validation accuracy and test accuracy for both kernels.
 
+🎯 K-Means Clustering – Mall Customer Segmentation
+
+This project applies K-Means clustering to the Mall Customers dataset to group customers based on their income and spending behavior. The aim is to segment customers into meaningful groups for business insights.
+
+📌 Task 8: Clustering with K-Means
+
+Objective: Perform unsupervised learning with K-Means clustering.
+
+Steps Covered:
+
+Load & Prepare Dataset
+Loaded Mall_Customers.csv. Selected Annual Income and Spending Score features. Standardized features using StandardScaler.
+
+Elbow Method
+Tested values of k from 1–10. Plotted inertia to identify the optimal number of clusters.
+
+Fit K-Means
+Trained KMeans with k=5 clusters. Assigned cluster labels to each customer.
+
+Cluster Visualization
+Plotted clusters in 2D with color-coding. Marked centroids with red "X".
+
+Evaluation
+Calculated Silhouette Score to measure cluster quality.
+
 - 
